@@ -88,7 +88,8 @@ import impacket from '../app/assets/svg/skills/impacket.svg'
 import kali from '../app/assets/svg/skills/kali.svg'
 import burpsuite from '../app/assets/svg/skills/burpsuite.svg'
 import metasploit from '../app/assets/svg/skills/metasploit.svg'
-// import nmap from '../app/assets/svg/skills/nmap.svg'
+import gitlab from '../app/assets/svg/skills/gitlab.svg'
+import jenkins from '../app/assets/svg/skills/jenkins.svg'
 import wireshark from '../app/assets/svg/skills/wireshark.svg'
 
 
@@ -96,6 +97,10 @@ import wireshark from '../app/assets/svg/skills/wireshark.svg'
 export const skillsImage = (skill) => {
   const skillID = skill.toLowerCase();
   switch (skillID) {
+    case 'gitlab':
+      return gitlab;
+    case 'jenkins':
+      return jenkins;
     case 'autopsy':
       return autopsy;
     case 'qradar':

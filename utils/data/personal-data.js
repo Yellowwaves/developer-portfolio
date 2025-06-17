@@ -13,5 +13,5 @@ export const personalData = {
   stackOverflow: '', // Optional
   leetcode: '', // Optional
   devUsername: '', // Optional
-  resume: '' // Optional: add a link to your resume if hosted online
+  resume: '/cv_elouan_teissere.pdf' // Optional: add a link to your resume if hosted online
 }
