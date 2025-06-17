@@ -82,12 +82,36 @@ import kubernetes from '../app/assets/svg/skills/kubernetes.svg'
 import linux from '../app/assets/svg/skills/linux.svg'
 import sqlalchemy from '../app/assets/svg/skills/sqlalchemy.svg'
 import fastapi from '../app/assets/svg/skills/fastapi.svg'
+import autopsy from '../app/assets/svg/skills/autopsy.svg'
+import qradar from '../app/assets/svg/skills/qradar.svg'
+import impacket from '../app/assets/svg/skills/impacket.svg'
+import kali from '../app/assets/svg/skills/kali.svg'
+import burpsuite from '../app/assets/svg/skills/burpsuite.svg'
+import metasploit from '../app/assets/svg/skills/metasploit.svg'
+// import nmap from '../app/assets/svg/skills/nmap.svg'
+import wireshark from '../app/assets/svg/skills/wireshark.svg'
 
 
 
 export const skillsImage = (skill) => {
   const skillID = skill.toLowerCase();
   switch (skillID) {
+    case 'autopsy':
+      return autopsy;
+    case 'qradar':
+      return qradar;
+    case 'impacket':
+      return impacket;
+    case 'kali':
+      return kali;
+    case 'burpsuite':
+      return burpsuite;
+    case 'metasploit':
+      return metasploit;
+    case 'nmap':
+      return nmap;
+    case 'wireshark':
+      return wireshark;
     case 'gcp':
       return gcp;
     case 'html':
